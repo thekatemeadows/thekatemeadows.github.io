@@ -1,0 +1,64 @@
+@import url('https://fonts.googleapis.com/css?family=Abril+Fatface');
+
+body {
+    background-color: black;
+    background-image: url("https://www.newstatesman.com/sites/default/files/styles/nodeimage/public/blogs_2015/10/house_of_the_seven_gables_1915_.jpg?itok=Utu0WM4f");
+	background-repeat: no-repeat;
+	background-size: cover;
+	width: 100%;
+	height: 100vh;
+	background-position: center center;
+	position: relative;
+	margin-top: 20%;
+	padding-left: 10%;
+
+}
+
+h1 {
+    color: gold;
+    font-family: 'Abril Fatface', georgia, serif;
+    font-size: 69px;
+    line-height: 30px;
+	opacity: .65;
+	letter-spacing: 2px;
+}
+
+h2	{
+	color: white;
+	font-family: Helvetica;
+	font-size: 20px;
+	font-weight: bold;
+	line-height: 18px;
+}
+
+p {
+	color:white;
+	font-family: Helvetica;
+	font-size: 12px;
+	line-height: 1.5;
+	font-weight: lighter;
+	text-align: justify;
+	letter-spacing: 1px;
+}
+
+ul {
+	text-align: left;
+	list-style-type: ;
+	font-family: Helvetica;
+	font-size: 12px;
+	font-weight: bolder;
+	color: white;
+	line-height: 16px;
+}
+
+a:link, a:visited, a:active {
+	color: gold;
+	text-decoration: none;
+	font-weight: bold;
+}
+
+a:hover {
+	color:white;
+	text-decoration: line-through;
+}
+
