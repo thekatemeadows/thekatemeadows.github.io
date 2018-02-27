@@ -62,3 +62,7 @@ a:hover {
 	text-decoration: line-through;
 }
 
+table {
+	border-collapse: collapse;
+	max-width: 500px;
+}
