@@ -26,6 +26,7 @@ h2 {
 	font-style: italic;
 	text-transform: uppercase;
 	padding: 0;
+	margin: 0;
 }
 
 h3 {
@@ -108,13 +109,11 @@ div / section {
 
 #left {
     background-color: #FFFFFF;
-    padding: 10px;
     float: left;
     width: 40%;
 }
 
 #right {
-    padding: 20px;
     float: right;
     width: 50%;
 }
@@ -128,7 +127,9 @@ div / section {
     height: 0;
 }
 
-@media screen only and (max-width: 550px) {
+@media screen and (max-width: 860px) {
+
+
 #left {
 	width: auto;
 	float: none;
@@ -145,6 +146,14 @@ aside {
 article {
 	float: none;
 	width: auto;
+}
+
+h1 {
+	font-size: 35px;
+}
+
+nav {
+	padding: 10px;	
 }
 
 }
