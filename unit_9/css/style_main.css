@@ -1,41 +1,37 @@
 body {
-	background-color: rgb(0);
+    background-color: black;
+    background-image: url("https://www.newstatesman.com/sites/default/files/styles/nodeimage/public/blogs_2015/10/house_of_the_seven_gables_1915_.jpg?itok=Utu0WM4f");
+	background-repeat: no-repeat;
+	background-size: cover;
+	width: 100%;
+	height: 100vh;
+	background-position: center center;
+	position: relative;
+	margin-top: 20%;
+	overflow: hidden;
+
 }
 
 .css-selector {
-	font-family: 'Playfair Display', 'Georgia', serif;
-	font-family: 'Josefin Sans', 'Open Sans', sans-serif;
 	font-family: 'Montserrat', 'Open Sans', sans-serif;
 }
 
 h1 {
-	color: #ffe11b;
+	color: black;
 	font-family: 'Montserrat', 'Open Sans', sans-serif;
-	font-size: 50px;
+	font-size: 45px;
 	font-weight: 800;
 	letter-spacing: 20px;
 	text-transform: uppercase;
-	line-height: 45px;
-}
-
-h2 {
-	font-family: 'Montserrat', 'Open Sans', sans-serif;
-	font-size: 20px;
-	font-weight: 600;
-	color: black;
-	font-style: italic;
-	text-transform: uppercase;
-	padding: 0;
-	margin: 0;
+	margin: 0.5em;
 }
 
 h3 {
 	font-family: 'Montserrat', 'Open Sans', sans-serif;
-	font-size: 14px;
+	font-size: 15px;
 	font-weight: 200;
-	color: rgb(65,65,65);
+	color: black;
 	text-transform: uppercase;
-	padding: 10px;
 	margin: 0;
 }
 
@@ -45,7 +41,7 @@ a:hover {
 
 
 nav {
-    padding: 20px;
+    padding: 25px;
     background-color: #ffe11b;
 }
 
@@ -77,50 +73,24 @@ img {
     padding: 0;
 }
 
-aside {
-    padding: 20px;
-}
 
 article {
     background-color: #FFFFFF;
     padding: 20px;
 }
 
-footer {
-    background-color: black;
-    padding: 20px;
-    bottom: 0px;
-    color: #ffe11b;
-    text-align: right;
-    font-size: 6px;
-    text-transform: uppercase;
-    letter-spacing: 2px;
-}
+
 
 div / section {
     background-color: #FFFFFF;
     padding: 20px;
 }
 
-#two_column {
-    background-color: #FFFFFF;
-    padding: 20px;
-}
-
-#left {
-    background-color: #FFFFFF;
-    float: left;
-    width: 40%;
-}
-
-#right {
-    float: right;
-    width: 50%;
-}
 
 table {
 	border-collapse: collapse;
 	max-width: 500px;
+	background-color: #ffe11b;
 }
 
 .clearfix:after {
@@ -133,32 +103,3 @@ table {
 }
 
 @media screen and (max-width: 860px) {
-
-
-#left {
-	width: auto;
-	float: none;
-}
-#right {
-	width: auto;
-	float: none;
-}
-
-aside {
-	float: none;
-	width: auto;
-}
-article {
-	float: none;
-	width: auto;
-}
-
-h1 {
-	font-size: 35px;
-}
-
-nav {
-	padding: 10px;	
-}
-
-}
